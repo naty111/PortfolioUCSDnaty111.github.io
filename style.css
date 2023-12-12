@@ -1,0 +1,199 @@
+#title{
+  background-color:#FFA384 ;
+  text-align: 95%;
+  padding-bottom: 10%;
+
+}
+
+.container-fluid{
+  padding:3% 10%;
+}
+
+h1 {
+  font-family:'Montserrat';
+  font-weight: bold;
+  font-size: 2rem ;
+  line-height: 1.5;
+  color: white;
+  
+}
+h2{
+  font-family:'Roboto';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight:bold;
+  margin-bottom: 5%;
+}
+h3 {
+  font-family:'Rethink Sans';
+  font-weight: "bold";
+  font-size: 3rem;
+}
+h4 {
+  font-family: 'Rethink Sans';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h5 {
+  font-family: 'DM Serif Display';
+  font-weight:bold;
+  font-size: 2rem;
+}
+
+p{
+  color:gray;
+  font-family:'Roboto';
+}
+/*--navgation bar--!*/
+.navbar{
+  padding-bottom:4.5rem;
+  padding:0 0 4.5rem;
+  font-size: 1.5rem;
+}
+.navbar-brand {
+font-family: 'Roboto'; 
+font-size: 1.5rem;
+font-weight:bold;
+color: white;
+}
+
+.nav-item{
+  padding:0 0 1rem;
+}
+
+.navlink{
+  font-family:'Roboto'; 
+  font-size:1.2rem;
+}
+/* COGS3 studyBuddy specific styles go here. */
+
+/*button*/
+.download-button{
+  margin:10% 3% 5% 0;
+}
+/*title image*/
+.title-image{
+  width:85%;
+  transform: rotate(0deg);
+  position: absolute;
+}
+/*Project section*/
+#Projects{
+  z-index: 5;
+  background-color: white;
+  position: relative;
+}
+.card {
+  border: 5px solid #74BDCB;
+  border-radius: 9px;
+  margin-bottom: 5px;
+  transition: 0.3s; 
+  padding-bottom: 5%;
+  padding-top: 2%;
+
+}
+.text-block {
+  font-family:'Roboto';
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.card{
+  background-color: #E7F2F8;
+}
+.card-img{
+  width: 100%;
+  height: auto;
+  padding: 3% 0%
+}
+
+.card-head-img{
+  text-align: center;
+}
+
+
+/*Other Work sections*/
+
+#Work{
+    padding-bottom: 7%;
+  }
+  .card-deck {
+    margin-bottom: 20px;
+  }
+
+.text-block {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+
+/*About Me*/
+#Meet{
+  background-color:#FFA384;
+  color:white;
+  padding:7% 15% 15%;
+  
+}
+
+.Meet-text {
+  text-align: left;
+  padding: 20% 5% 10%;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 30px;
+  padding-top: 35%;
+  padding-bottom:5%;
+}
+
+.Meet-heading{
+font-family: 'Monserrat';
+font-weight: bold;
+font-size: 3.5rem;
+line-height: 1.5;
+padding-bottom: 5px;
+text-align:left;
+}
+
+.Meet-image{
+ border: 5px solid white;
+ width:100%;
+ max-width: 400px;
+ height: auto;
+}
+/*Contacts section*/
+
+#contacts {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 20px 10px;
+  font-size: 35px;
+}
+
+/*Media Query*/
+
+@media(max-width: 1028px){
+  #title{
+    text-align: center;
+  } 
+  .title-image{
+    position:static;
+    transform:rotate(0)
+  }
+}
