@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COGS3 - Best of 10!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Reports the values of the die and the sum -->
+    <h1>Let's Roll the Dice!</h1>
+
+    <!-- Reports the outcome of the bet -->
+    <h2>
+      If the dice add to anything above 9, you win $5! <br>
+      If the dice add to 5 or less, I win $5. <br>
+      Ready to play?
+    </h2>
+
+    <!-- Blanace outcome -->
+    <h3 id="balanceOutcome"></h3>
+    <br>
+    <h3 id="numberBalance" style="color:whitesmoke"></h3>
+
+    <div class="letsplayButton">
+      <p> Do you want to roll the dice? </p>
+      <button class="myBtn" onclick="letsPlay()" style="color:black; background-color:rgb(251, 250, 250)">Let's Play Again!</button>
+      <h2 id="timesPlay" style="color: rgb(248, 246, 246); border: thick solid rgb(225, 216, 216)"></h2> 
+    </div>
+     
+    <div class="dice">
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
+
+  <footer>
+    COGS3 - Dice Game Bet 10 - Nathalee - 11/18/23
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
