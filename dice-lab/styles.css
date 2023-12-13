@@ -1,0 +1,68 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+} 
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #354ce2;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #0a0c0e;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #f6fdff;
+}
+
+h2, h3 {
+  margin: 30px;
+  text-shadow: 5px #0a0c0e;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #f6fdff;
+}
+
+p {
+  color: #f6fdff;
+  font-weight: 700;
+  text-shadow: 5px #0a0c0e;
+  font-size: 2rem;
+
+}
+
+
+img {
+  width: 80%;
+  background-color: #ebd71e;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+  font-family: 'IBM Plex Mono' , monospace; 
+}
+.myBtn:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'IBM Plex Mono' , monospace; 
+  font-size: 1rem 
+}
+
